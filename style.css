@@ -1,0 +1,94 @@
+.page1 {
+    padding: 0;
+    margin: -1em;
+    width: 102.8%;
+}
+
+
+
+.principal {
+    padding: -3em;
+    margin: -1em;
+    width: 0;
+    list-style: none;
+}
+
+.nav {
+    animation: brilho2  0.9s infinite;
+    position: absolute;
+    top: 16px;
+    left: 66em;
+    font-family: vegan;
+    font-size: 13px;
+    color: #fdad43;
+    text-shadow: 0 0 30px #d88547;
+}
+
+.aa{
+    animation: brilho2 0.8s infinite;
+
+}
+
+
+
+
+
+.cardapioo {
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    width: 216.4vh;
+    top: 92%;
+    
+}
+
+.page2 {
+    width: 100%;
+}
+
+
+.nav li {
+    display: inline;
+    margin: 0 0 0 50px;
+
+}
+
+.ul li {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ul {
+    list-style: none;
+}
+
+.rodape {
+    position: absolute;
+    top: 189.1%;
+    margin: 3px;
+    padding: 0;
+    left: 0;
+    width: 1s20vh;
+    
+}
+
+
+
+@font-face {
+    font-family: vegan;
+    src: url(./img/Resotelavender-L33Wn.ttf);
+}
+
+@keyframes brilho2 {
+    from{
+        text-shadow: 
+        0 0 30px #d88547,
+        0 0 60px #d88547,
+        0 0 90px #d88547;
+    }   
+    to{
+        text-shadow: none;
+    }
+
+}
